@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    let num1 = prompt("Enter number 1: ")
+    num1 = parseInt(num1)
+    // isNaN (is not a number)
+    
+    if (!(isNaN(num1))) {
+        // It is a number
+
+        let num2 = prompt("Enter number 2: ")
+        num2 = parseInt(num2)
+        // isNaN (is not a number)
+        
+
+            if (!(isNaN(num1))) {
+                
+                
+                let op = prompt("Enter +,-,/,* : ")
+                if(op == "+") {
+                    result = num1 + num2
+                    alert(result)
+                }
+                else if (op == "-") {
+                    result = num1 - num2
+                    alert(result)
+                }
+                else if (op == "/") {
+                    result = num1 / num2
+                    alert(result)
+                }
+                else if (op == "*") {
+                    result = num1 * num2
+                    alert(result)
+                }
+        }
+
+    }
+
+
+</script>
+</html>
